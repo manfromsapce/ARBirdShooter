@@ -5,13 +5,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Play : MonoBehaviour
+public class PlayContinue : MonoBehaviour
 {
-    public void Loadscene(string SceneName)
+    public void Pause()
 
     {
-        SceneManager.LoadScene(SceneName);
-        ScoreScript.scoreValue = 0;
+        
+        Time.timeScale = 0f;
+       
 
 
     }

@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7009919786850740126}
   - component: {fileID: -5009325989058171817}
+  - component: {fileID: -510396681343599250}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: balloon5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,6 +45,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f5bbabdcd3d56140964aaaaed65eadc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-510396681343599250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2935808542145047658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6488628, y: 2.9975033, z: 1}
+  m_Center: {x: 0.7599199, y: -2.0409274, z: 0}
 --- !u!1 &3993814084061967748
 GameObject:
   m_ObjectHideFlags: 0

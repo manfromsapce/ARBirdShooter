@@ -5,13 +5,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Play : MonoBehaviour
+public class Retry : MonoBehaviour
 {
-    public void Loadscene(string SceneName)
+    public void LoadScene(string SceneName)
 
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneName);
         ScoreScript.scoreValue = 0;
+
 
 
     }

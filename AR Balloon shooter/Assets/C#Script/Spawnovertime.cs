@@ -31,22 +31,25 @@ public class Spawnovertime : MonoBehaviour
         while (true)
         {
             yield return null;
-            spawnRateCountdown -= Time.deltaTime;
-            spawnCountdown -= Time.deltaTime;
-
-            if (spawnCountdown < 0)
+            if (Time.timeScale > 0)
             {
-                spawnCountdown += delayAndSpawnRate;
+                spawnRateCountdown -= Time.deltaTime;
+                spawnCountdown -= Time.deltaTime;
 
-                Instantiate(balloons1, spawnPoints1.position, Quaternion.identity);
-                Instantiate(balloons2, spawnPoints2.position, Quaternion.identity);
-                Instantiate(balloons3, spawnPoints3.position, Quaternion.identity);
-
-
-                if (spawnRateCountdown < 0 && delayAndSpawnRate > 1)
+                if (spawnCountdown < 0)
                 {
-                    spawnRateCountdown += timeUntilSpawnRateIncrease;
-                    delayAndSpawnRate -= 0.1f;
+                    spawnCountdown += delayAndSpawnRate;
+
+                    Instantiate(balloons1, spawnPoints1.position, Quaternion.identity);
+                    Instantiate(balloons2, spawnPoints2.position, Quaternion.identity);
+                    Instantiate(balloons3, spawnPoints3.position, Quaternion.identity);
+
+
+                    if (spawnRateCountdown < 0 && delayAndSpawnRate > 1)
+                    {
+                        spawnRateCountdown += timeUntilSpawnRateIncrease;
+                        delayAndSpawnRate -= 0.1f;
+                    }
                 }
             }
         }

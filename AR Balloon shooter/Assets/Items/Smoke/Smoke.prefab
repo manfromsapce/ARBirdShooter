@@ -41,7 +41,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975141522878942813}
   serializedVersion: 6
-  lengthInSec: 3
+  lengthInSec: 4
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 3
@@ -185,9 +185,9 @@ ParticleSystem:
         m_RotationOrder: 4
     startColor:
       serializedVersion: 2
-      minMaxState: 0
-      minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.3584906, g: 0.34327164, b: 0.32297972, a: 0.17254902}
+      minMaxState: 2
+      minColor: {r: 1, g: 0.22793041, b: 0.08018869, a: 1}
+      maxColor: {r: 0.012578487, g: 0, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -249,7 +249,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 2
+      scalar: 3
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -529,7 +529,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 10000
+    maxNumParticles: 1000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -4649,7 +4649,7 @@ ParticleSystemRenderer:
   m_RenderMode: 0
   m_SortMode: 1
   m_MinParticleSize: 0
-  m_MaxParticleSize: 10
+  m_MaxParticleSize: 100
   m_CameraVelocityScale: 0
   m_VelocityScale: -1.73
   m_LengthScale: 0

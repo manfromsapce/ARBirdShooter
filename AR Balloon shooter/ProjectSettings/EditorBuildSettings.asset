@@ -5,10 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/PauseScene.unity
+    guid: 899be51e663486b4dab58cf513f8a84a
   - enabled: 1
     path: Assets/Scenes/UIScene.unity
     guid: 4b138cbee2c1e76419d1a351ee800c6f
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: 8012cc46447dce7488f39582a6e433c2
+  - enabled: 1
+    path: Assets/Scenes/SoundScene.unity
+    guid: 750d17a6b87c4f14db294d0705e9f70e
+  - enabled: 1
+    path: Assets/Scenes/SoundScene2.unity
+    guid: 2b1715b3448e4064fb1813bde69b68bc
   m_configObjects: {}
