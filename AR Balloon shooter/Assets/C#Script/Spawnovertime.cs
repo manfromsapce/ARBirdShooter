@@ -15,8 +15,8 @@ public class Spawnovertime : MonoBehaviour
     public GameObject balloons2;
     public GameObject balloons3;
 
-    float delayAndSpawnRate = 2;
-    float timeUntilSpawnRateIncrease = 7;
+    float delayAndSpawnRate = 3;
+    float timeUntilSpawnRateIncrease = 5;
     // Start is called before the first frame update
     void Start()
     {

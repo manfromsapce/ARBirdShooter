@@ -17,7 +17,7 @@ public class GameOver : MonoBehaviour
 
         if (Physics.Raycast(arCam.transform.position, arCam.transform.forward, out hit))
         {
-            if (hit.transform.name == "balloon4(Clone)" || hit.transform.name == "balloon5(Clone)")
+            if (hit.transform.name == "balloon4(Clone)" || hit.transform.name == "balloon5(Clone)" || hit.transform.name == "balloon6(Clone)" || hit.transform.name == "balloon7(Clone)")
             {
                
 

@@ -209,7 +209,18 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 611060650}
+        m_MethodName: SetVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &96916349
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,7 +554,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190542625}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1036,6 +1047,7 @@ GameObject:
   - component: {fileID: 611060646}
   - component: {fileID: 611060645}
   - component: {fileID: 611060644}
+  - component: {fileID: 611060650}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: Untagged
@@ -1252,6 +1264,18 @@ Transform:
   m_Father: {fileID: 212087566}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &611060650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611060642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51882f4591f5cb94383d8aa7a29c50b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &799521232
 GameObject:
   m_ObjectHideFlags: 0

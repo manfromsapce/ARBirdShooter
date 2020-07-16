@@ -5,21 +5,23 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 
 
-public class Spawnovertimeenemy : MonoBehaviour
+public class Spawnovertimeenemy2 : MonoBehaviour
 {
     
-    public Transform spawnPoints4;
-    public Transform spawnPoints5;
    
-
-    public GameObject balloons4;
-    public GameObject balloons5;
-   
+    public Transform spawnPoints6;
+    public Transform spawnPoints7;
 
 
+    
+    public GameObject balloons6;
+    public GameObject balloons7;
 
-    float delayAndSpawnRate = 7;
-    float timeUntilSpawnRateIncrease = 20;
+
+
+
+    float delayAndSpawnRate = 15;
+    float timeUntilSpawnRateIncrease = 70;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,9 +44,9 @@ public class Spawnovertimeenemy : MonoBehaviour
             {
                 spawnCountdown += delayAndSpawnRate;
 
-                Instantiate(balloons4, spawnPoints4.position, Quaternion.identity);
-                Instantiate(balloons5, spawnPoints5.position, Quaternion.identity);
-               
+                
+                Instantiate(balloons6, spawnPoints6.position, Quaternion.identity);
+                Instantiate(balloons7, spawnPoints7.position, Quaternion.identity);
 
 
 
