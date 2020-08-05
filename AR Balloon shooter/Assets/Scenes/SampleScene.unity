@@ -2577,6 +2577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1579215062}
   - component: {fileID: 1579215061}
+  - component: {fileID: 1579215063}
   m_Layer: 0
   m_Name: ShootScript
   m_TagString: Untagged
@@ -2612,6 +2613,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1579215063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579215060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5adab2328858e49ad6e13c929f8a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arCam: {fileID: 741916309}
+  FloatingTextPrefab: {fileID: 7941840596017861512, guid: 66ca5d0c488da8141ae6d07449159476,
+    type: 3}
+  FloatingTextPrefab1: {fileID: 7941840596017861512, guid: 091e0285a8658a645acf0f2c46dafab4,
+    type: 3}
+  FloatingTextPrefab2: {fileID: 7941840596017861512, guid: 6ce9b2cd1d8a7034ab9eca9e12a0777b,
+    type: 3}
 --- !u!1 &1764018093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2926,6 +2946,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: GameOverScene
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1579215063}
+        m_MethodName: Shooting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1940108069
